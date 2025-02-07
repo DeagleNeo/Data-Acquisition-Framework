@@ -274,9 +274,9 @@ if __name__ == "__main__":
     console = Console()
     try:
         config_data = read_sql_table(
-            server_name='DESKTOP-GGC1FHH\SQLEXPRESS',
-            database_name='ConfigDB',
-            sql_table_name='dbo.Configuration'
+            server_name='server_name',
+            database_name='database_name',
+            sql_table_name='sql_table_name'
         )
         
         # Display the first few rows
